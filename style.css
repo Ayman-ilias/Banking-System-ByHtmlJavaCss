@@ -1,0 +1,67 @@
+.system{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.amount{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+}
+.deposit{
+    background-color: violet;
+}
+.withdraw{
+    background-color: lightgreen;
+}
+.balance{
+    background-color: rgb(231, 100, 100);
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+}
+.input-dep{
+    gap: 100px;
+}
+.dep-btn{
+    border: none;
+    background-color: darkblue;
+    color: white;
+    padding: 8px;
+    cursor:pointer;
+    border-radius: 10px;
+}
+.wit-btn{
+    border: none;
+    background-color: darkred;
+    color: white;
+    padding: 8px;
+    cursor:pointer;
+    border-radius: 10px;
+
+}
+.int-dep{
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 4px;
+}
+.int-wit
+{
+        padding: 5px;
+        border-radius: 5px;
+        border-width: 4px;
+}
